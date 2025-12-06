@@ -9,4 +9,5 @@ students = [
 for student in students:
     grades = student["grades"]
     average = sum(grades) / len(grades)
-    print(f"{student['name']}: Average Grade = {average:.2f}")
+    print(f"{student['name']}: Average Grade = {average}")
+
